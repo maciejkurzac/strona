@@ -5,7 +5,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	font-family: 'Nova Mono', monospace;
+	font-family: 'Coda', cursive; 
 }
 hr{
 	width: 70%;
@@ -13,14 +13,14 @@ hr{
 }
 header{
 	text-align: center;
-	font-size: 25px;
+	
 
   text-shadow: 1px 1px 3px black;
   margin-bottom: -20px;
 }
 header img{
 	width: 400px;
-	height: 200px;
+	height: 188px;
 }
 a{
 	text-decoration: none;
@@ -46,7 +46,7 @@ a{
 	top: 0px;
 	z-index: 10;
 	border: 1px solid black;
-	font-size: 17px !important;
+	font-size: 17px;
 	font-family: Josefin Sans;
 	text-transform: uppercase;
 }
@@ -115,7 +115,7 @@ a{
 
 .separator {
 	color: black;
-  font-size: 20px;
+  font-size: 17px;
   height: 100px;
   text-align: center;
 	
@@ -124,7 +124,7 @@ a{
   margin-top: 40px;
  text-align: center;
   color: black;
-	padding: 20px;
+	padding: 20px 100px 20px 100px;
   min-height: 650px;
  	background-color: white;
 	 //font-family: 'Kalam', cursive;
@@ -134,6 +134,7 @@ a{
 .mnie_pic{
   float: left;
   margin-right: 50px;
+box-shadow: 1px 1px 3px black;
 }
 .mnie_pic img{
 	width: 300px;
@@ -159,6 +160,7 @@ a{
 	box-shadow: 3px 3px 5px black;
 	filter: blur(2px);
 }
+
   
 @media (max-width: 1000px) {
 	header img{
@@ -185,8 +187,11 @@ a{
 		transition: 0.2s;
 	}
 	.content {
-		 padding: 20px;
+		 padding: 20px 20px 20px 20px;
 		 text-align: center;
+	}
+	.fab{
+	display: none;
 	}
 
 }
